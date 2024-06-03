@@ -12,7 +12,8 @@ Direction kunne veldig gjerne vært sin egen klasse slik at man blant annet slip
 
 ## Modell
 
-### entities-mappen kunne gjerne hatt undermapper for hovedgruppene som utvider entities. Feks: spiller-relatert, enemies og pickupables.
+### Mappestruktur entities
+entities-mappen kunne gjerne hatt undermapper for hovedgruppene som utvider entities. Feks: spiller-relatert, enemies og pickupables.
 
 ### Entity
 World behøver ikke være med i både EntityGameModel og som parameter i konstruktøren til Entity, i tillegg er den kun brukt i en metode i klassen som kun er brukt i konstruktøren, som vil si at det er heller ingen grunn til å beholde den som en variabel og kunne heller vært et parameter i metoden som bruker den.
