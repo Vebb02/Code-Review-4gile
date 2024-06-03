@@ -27,8 +27,8 @@ spawnInterval kunne vært en del av konstruktøren i stedet for å få en verdi 
 Fabrikkene burde ikke ha GameModel, men heller grensesnittet EntityGameModel for å unngå at de har tilgang til for mye.
 
 ### Configurations
-WALLTHICKNESS -> WALL_THICKNESS
-FACTORY_HEIGHT -> ENTITY_HEIGHT_OPTIONS (eller lignende)
+WALLTHICKNESS -> WALL_THICKNESS.
+FACTORY_HEIGHT -> ENTITY_HEIGHT_OPTIONS (eller lignende).
 
 ### GameModel
 For mange magiske tall i konstruktøren som burde vært definert i f.eks. Configurations.
